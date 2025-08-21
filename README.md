@@ -36,7 +36,45 @@ The goal is to **clean, explore, visualize, and extract insights** from the data
 
 ### Correlation Heatmap
 ![Correlation Heatmap](https://raw.githubusercontent.com/jhashreya25/NFHS5-EDA-Analysis./refs/heads/main/correlation_heatmap.png)  
- **Insight:** Strong correlations exist between women’s education, sanitation access, and child health outcomes. States with higher education levels tend to have better sanitation and lower child mortality.
+Insight:
+Strong positive correlation between female literacy, internet use, and women’s empowerment indicators (e.g., household decision-making).
+
+Child nutrition and sanitation are strongly correlated — better toilet access links to lower stunting/wasting rates.
+
+Negative correlations show that early marriage and low literacy go hand-in-hand with poor maternal/child health.
+
+Implication: Education and empowerment policies can directly improve health outcomes.
+![Household Survey Distribution] https://raw.githubusercontent.com/jhashreya25/NFHS5-EDA-Analysis./refs/heads/main/hist_Number_of_Households_surveyed.png
+ Insight:
+Distribution shows wide variation across states.
+
+Larger states like Uttar Pradesh and Maharashtra had very high household sample sizes, while smaller UTs like Lakshadweep had very low counts.
+
+This indicates that survey data is representative at both state and national levels, but comparisons between big states and small UTs must consider sample size differences.
+
+👶 Sex Ratio at Birth (last 5 years)
+
+File: box_Sex_ratio_at_birth_for_children_born_in_the_last_five_years_females_per_1_000_males_.png
+📊 Insight:
+
+Median sex ratio at birth is close to 950–970 females per 1000 males, but there are significant outliers.
+
+Some states (e.g., Punjab, Haryana) show lower ratios (<900), highlighting persistent gender imbalance.
+
+States like Kerala perform much better, closer to natural ratio (~1000).
+
+Implication: Despite progress, certain regions still show gender bias at birth.
+
+💰 Out-of-Pocket Delivery Costs
+
+File: hist_Average_out_of_pocket_expenditure_per_delivery_in_a_public_health_facility_for_last_birth_in_the_5_years_before_the_survey_Rs_.png
+📊 Insight:
+
+Most deliveries in public facilities cost between ₹1,000–₹5,000, but some states report much higher averages.
+
+Outliers suggest inequities — in some regions, public health deliveries are not fully free, creating barriers for poor families.
+
+Implication: Strengthening Janani Suraksha Yojana (JSY) and similar schemes is still crucial.
 
 ### Sanitation Access
 ![Sanitation Boxplot](nfhs5_eda_outputs/plots/box_Population_living_in_households_that_use_an_improved_sanitation_facility2.png)  
