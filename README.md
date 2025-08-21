@@ -35,7 +35,7 @@ The goal is to **clean, explore, visualize, and extract insights** from the data
 ## Example Visuals with Insights
 
 ### Correlation Heatmap
-![Correlation Heatmap](nfhs5_eda_outputs/plots/correlation_heatmap.png)  
+![Correlation Heatmap](https://raw.githubusercontent.com/jhashreya25/NFHS5-EDA-Analysis./refs/heads/main/correlation_heatmap.png)  
  **Insight:** Strong correlations exist between women’s education, sanitation access, and child health outcomes. States with higher education levels tend to have better sanitation and lower child mortality.
 
 ### Sanitation Access
