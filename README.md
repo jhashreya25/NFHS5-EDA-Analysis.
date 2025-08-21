@@ -92,5 +92,4 @@ Implication: Strengthening Janani Suraksha Yojana (JSY) and similar schemes is s
 
 
 
-```markdown
-![Correlation Heatmap](nfhs5_eda_outputs/plots/correlation_heatmap.png)
+
